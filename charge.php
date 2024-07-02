@@ -18,7 +18,7 @@ function generatePaymentId() {
 $paymentId = generatePaymentId();
 
 // Initialize Razorpay
-$razorpay = new Razorpay\Api\Api('rzp_test_04excYMhTTXEIA', 'obz0lpTNYqFBTYGUwD0fv34w');
+$razorpay = new Razorpay\Api\Api('rzp_test_04excYMhTTXEIB', 'obz0lpTNYqFBTYGUwD0fv34e');
 
 // Fetch amount from the form
 $amount = $_POST['amount'] * 100; // Convert amount to paise
